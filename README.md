@@ -3,17 +3,17 @@
 <table align="center">
   <tr>
     <td colspan="2" align="center">
-      <strong>01 - Landing Page</strong><br><br>
+      <strong>Landing Page</strong><br><br>
       <img src="screenshots/01-landing-page.png" alt="Landing Page" width="100%" >
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <strong>03 - Products Catalog</strong><br><br>
+      <strong>Products Catalog</strong><br><br>
       <img src="screenshots/03-products-catalog.png" alt="Products Catalog" width="100%">
     </td>
     <td align="center" width="50%">
-      <strong>04 - Product Detail (Mikasa GT18)</strong><br><br>
+      <strong>Product Detail (Mikasa GT18)</strong><br><br>
       <img src="screenshots/04-product-detail-mikasa-gt18.png" alt="Product Detail - Mikasa GT18" width="100%">
     </td>
   </tr>
