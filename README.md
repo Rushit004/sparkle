@@ -1,5 +1,13 @@
 # Sparkle E-Commerce Website
 
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+</p>
+
 <table align="center">
   <tr>
     <td colspan="2" align="center">
@@ -157,7 +165,25 @@ sparkle_ecommerce_for_volleyball/
     ├── 12-products-search-active.png
     └── 13-products-catalog-scrolled.png
 ```
+## 🚀 Clone the Repository
 
+```bash
+git clone https://github.com/Rushit004/sparkle.git
+cd sparkle
+```
+
+## ▶️ Run the Project
+
+Since this is a static web project built with HTML, CSS, and JavaScript, simply open `index.html` in your web browser.
+
+### Using VS Code (Recommended)
+
+1. Open the project folder in Visual Studio Code.
+2. Install the **Live Server** extension.
+3. Right-click on `index.html`.
+4. Click **Open with Live Server**.
+
+The website will launch in your default browser.
 ---
 
 ## Tools used
