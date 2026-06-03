@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Sparkle</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="js/auth.js"></script>
+    <style>
+        header {
+            padding: 2rem;
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .suggestion-box {
+            margin-top: 4rem;
+            padding: 3rem;
+            background: var(--glass);
+            border-top: 1px solid var(--glass-border);
+            text-align: center;
+        }
+        .suggest-input {
+            max-width: 500px;
+            margin: 1rem auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Sparkle</a>
+        <div class="nav-links">
+            <a href="cart.html" class="cart-icon" style="text-decoration: none;">
+                <span style="color: white; font-size: 1.2rem;">🛒</span>
+                <span class="cart-count">0</span>
+            </a>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <header style="margin-top: 5rem;">
+        <h1 style="color: var(--primary-gold); letter-spacing: 3px;">SPARKLE COLLECTIONS</h1>
+        <p style="color: var(--text-gray); margin-bottom: 2rem;">Premium Volleyball Equipment</p>
+        <div class="suggest-input" style="max-width: 600px; margin: 0 auto;">
+            <input type="text" class="form-input" placeholder="Search for products..." id="searchInput">
+        </div>
+    </header>
+
+    <div class="product-grid">
+        <!-- Nivia Spiral -->
+        <a href="nivia-spiral.html" class="product-card" style="text-decoration: none;">
+            <img src="images/nivia_spiral.jpg" alt="Nivia Spiral">
+            <div class="product-info">
+                <h3 class="product-name">NIVIA SPIRAL</h3>
+                <p>Game Ball | One Piece</p>
+                <h3 class="product-price">₹699</h3>
+            </div>
+        </a>
+
+        <!-- Cosco Volley 18 -->
+        <a href="cosco-volley.html" class="product-card" style="text-decoration: none;">
+            <img src="images/cosco_vollyball_18.jpg" alt="Cosco Volley">
+            <div class="product-info">
+                <h3 class="product-name">COSCO VOLLY 18</h3>
+                <p>Practice Ball | 444 GM</p>
+                <h3 class="product-price">₹1,231</h3>
+            </div>
+        </a>
+
+        <!-- Mikasa GT 18 -->
+        <a href="mikasa-gt18.html" class="product-card" style="text-decoration: none;">
+            <img src="images/mikasa_gt_18.jpg" alt="Mikasa GT 18">
+            <div class="product-info">
+                <h3 class="product-name">MIKASA GT 18</h3>
+                <p>Game Ball | 421 GM</p>
+                <h3 class="product-price">₹11,200</h3>
+            </div>
+        </a>
+
+        <!-- Vector X -->
+        <a href="vector-x.html" class="product-card" style="text-decoration: none;">
+            <img src="images/vector x.jpg" alt="Vector X">
+            <div class="product-info">
+                <h3 class="product-name">VECTOR X</h3>
+                <p>Practice Ball | One Piece</p>
+                <h3 class="product-price">₹799</h3>
+            </div>
+        </a>
+
+        <!-- Spansyon -->
+        <a href="senston-spansyon.html" class="product-card" style="text-decoration: none;">
+            <img src="images/senston.jpg" alt="Spansyon">
+            <div class="product-info">
+                <h3 class="product-name">SPANSYON</h3>
+                <p>Practice & Game Ball</p>
+                <h3 class="product-price">₹1,099</h3>
+            </div>
+        </a>
+
+        <!-- J.J. Jonex -->
+        <a href="jj-jonex.html" class="product-card" style="text-decoration: none;">
+            <img src="images/jj_jonex.jpg" alt="JJ Jonex">
+            <div class="product-info">
+                <h3 class="product-name">J.J. JONEX</h3>
+                <p>Practice & Game Ball</p>
+                <h3 class="product-price">₹849</h3>
+            </div>
+        </a>
+
+        <!-- Nivia G2020 -->
+        <a href="nivia-g2020.html" class="product-card" style="text-decoration: none;">
+            <img src="images/nivia_spiral.jpg" alt="G2020">
+            <div class="product-info">
+                <h3 class="product-name">NIVIA G2020</h3>
+                <p>Professional | 20 Panels</p>
+                <h3 class="product-price">₹799</h3>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sparkle</h4>
+                <p style="color: var(--text-gray); font-size: 0.9rem;">Excellence in every bounce. We provide top-tier sports equipment for professionals.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Sparkle Sports. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const term = e.target.value.toLowerCase();
+            const cards = document.querySelectorAll('.product-card');
+            cards.forEach(card => {
+                const name = card.querySelector('.product-name').innerText.toLowerCase();
+                card.style.display = name.includes(term) ? 'block' : 'none';
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
