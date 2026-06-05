@@ -8,6 +8,15 @@
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
 </p>
 
+## 🌐 Live Demo
+
+👉 **Visit the Website:**  
+https://sparkle-ecommerce.netlify.app
+
+> Experience the full Sparkle e-commerce flow including product browsing, registration, and cart functionality.
+
+---
+
 <table align="center">
   <tr>
     <td colspan="2" align="center">
